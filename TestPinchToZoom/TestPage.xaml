@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+x:Class="TestPinchToZoom.TestPage"
+xmlns:controls="clr-namespace:TestPinchToZoom;assembly=TestPinchToZoom.iOS">
+	<ContentPage.Content>
+	<controls:PinchToZoomContainer>
+	<controls:PinchToZoomContainer.Content>
+		<Button Text="Hello"></Button>
+	</controls:PinchToZoomContainer.Content>
+	</controls:PinchToZoomContainer>
+	</ContentPage.Content>
+</ContentPage>
